@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#root {
+    background-image: url('./assets/noisy background.png');
+    font-family: 'Beatrice Display Trial', sans-serif;
+
+    padding-bottom: 2000px;
+}
+.ls-2 {
+    letter-spacing: 2px;
+}
+.btn{
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    right: 50%;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+.header-left{
+    display: flex;
+    gap: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.header-right{
+    display: flex;
+    gap: 32px;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+.icon-heart {
+    fill: currentColor; /* Matches the button text color */
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.button:hover .icon-heart {
+    transform: rotate(0deg);
+}
