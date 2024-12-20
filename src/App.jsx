@@ -10,7 +10,11 @@ function App() {
 
   return (
       <>
+          <Header/>
+          <Main/>
+          <Order/>
           <Checkout/>
+          <Footer/>
       </>
   )
 }
