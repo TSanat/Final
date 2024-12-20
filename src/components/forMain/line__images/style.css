@@ -1,0 +1,22 @@
+.thisweek__images{
+    display: flex;
+    gap: 26px;
+    max-width: 305px;
+    cursor: pointer;
+}
+.image__item{
+    max-width: 305px;
+    max-height: 313px;
+    margin-bottom: 14px;
+}
+.productWeek{
+    font-size: 14px;
+}
+.image__text{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+#categoryProduct{
+    opacity: 66%;
+}
