@@ -1,8 +1,18 @@
 .thisweek__images{
     display: flex;
-    gap: 26px;
-    max-width: 305px;
+    gap: 23px;
+
+}
+.thisweek_wrapper{
     cursor: pointer;
+}
+.this{
+    max-width: 305px;
+    max-height: 313px;
+}
+.other{
+    max-width: 366px;
+    max-height: 376px;
 }
 .image__item{
     max-width: 305px;

@@ -1,5 +1,29 @@
-.navigation{
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+.checkout__wrapper{
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.vector__image{
+    cursor: pointer;
+}
+.navigation{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-size: 32px;
+    font-weight: 800;
+}
+.check__nav{
+    display: flex;
+    margin-top: 18px;
+    color: #8A8A8A;
+    cursor: pointer;
+    gap: 50px;
 }

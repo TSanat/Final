@@ -1,6 +1,6 @@
-import './style.css'
+import  './style.css'
 
-function Images(){
+function Images(category){
     return(
         <div className='thisweek__images'>
             <div className="thisweek_wrapper">

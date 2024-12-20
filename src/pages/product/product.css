@@ -1,0 +1,125 @@
+.product{
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.product .container{
+    width: 875px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.mainImage{
+    width: 370px;
+    height: 440px;
+    align-items: center;
+    margin-right: 40px;
+    border: 2px solid #D9D9D9;
+}
+.secondaryImage{
+    width: 64px;
+    height: 440px;
+    margin: auto;
+    display: flow;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}
+.secondaryImage__items{
+    border: 2px solid #D9D9D9;
+    cursor: pointer;
+    width: 64px;
+    height: 78px;
+}
+.description{
+    display: flex;
+    width: 306px;
+    height: 440px;
+    border: 2px solid #D9D9D9;
+    position: relative;
+}
+.wishlistIcon{
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.wishlistIcon:hover{
+    transform: scale(1.1);
+}
+.desc__wrapper{
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.price{
+    font-size: 14px;
+    margin-top: 6px;
+}
+.company{
+    font-size: 12px;
+    font-family: 'Beatrice Trial', sans-serif;
+    opacity: 55%;
+    margin-top: 13px;
+}
+.textDesc{
+    font-size: 12px;
+    margin-top: 40px;
+}
+.other{
+    margin-top: 50px;
+}
+.size__text{
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Beatrice Trial', sans-serif;
+    margin-bottom: 0px;
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    margin-top: 4px;
+    font-size: 10px;
+    font-family: 'Beatrice Display Trial', sans-serif;
+}
+.sizes__items{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #A3A3A3;
+    text-align: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+.sizes__items:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.sizes__items p{
+    margin-top: 9.5px;
+}
+
+.text__add{
+    font-family: 'Beatrice Trial', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    opacity: 55%;
+    margin-top: 14px;
+}

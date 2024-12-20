@@ -1,1 +1,56 @@
-.more
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 110px;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+}
+.collections{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.choose ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: #8A8A8A;
+}
+li{
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+li:hover{
+    transform: scale(1.05);
+    color: black;
+}
+.sort{
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.sort:hover{
+    transform: scale(1.05);
+}
+.all{
+    color: black;
+}
+.more{
+    text-align: center;
+    color: #8A8A8A;
+    cursor: pointer;
+    max-width: 50px;
+    margin: auto;
+    margin-top: 25px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.more:hover{
+    transform: scale(1.05);
+}
