@@ -2,6 +2,7 @@ import style from './order.module.css';
 import Line from "../../forMain/line/line.jsx";
 import Total from "../../ui/subtotal/total.jsx";
 import Items from "/src/components/forCheckout/imageItem/items.jsx"
+
 function Order() {
     return (
         <div className={style.container}>
