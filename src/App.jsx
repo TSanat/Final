@@ -12,14 +12,14 @@ function App() {
 
   return (
       <>
-          {/*<Header/>*/}
-          {/*<Category/>*/}
-          {/*<Wish/>*/}
-          {/*<Product/>*/}
-          {/*<Main/>*/}
-          {/*<Checkout/>*/}
-          {/*<Order/>*/}
-          {/*<Footer/>*/}
+          <Header/>
+          <Category/>
+          <Wish/>
+          <Product/>
+          <Main/>
+          <Checkout/>
+          <Order/>
+          <Footer/>
       </>
   )
 }
