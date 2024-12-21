@@ -23,7 +23,10 @@ function Xiv(){
                     </div>
                 </div>
                 <Line />
-                <Images />
+                <div className={style.margin}>
+                    <Images />
+                </div>
+
                 <div className={style.more}>
                     <p>More</p>
                     <img src="/src/assets/arraw.svg" alt="attaw" />

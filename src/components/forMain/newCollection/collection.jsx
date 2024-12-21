@@ -1,5 +1,6 @@
 import './style.css';
 import Next from '/src/components/forMain/nextPrev/next.jsx';
+import Button from "../../ui/button/buttonArrow.jsx";
 function Collection() {
     return (
         <div className="collections">
@@ -11,10 +12,7 @@ function Collection() {
                             <p className="summer">Summer <br/>2024</p>
                         </div>
                         <div className="collection__buttons">
-                            <div className="goToShop">
-                                <button className="shopp">Go To Shop</button>
-                                <img src="/src/assets/vectorRight.svg" alt="" className="shop__image"/>
-                            </div>
+                            <Button value="Go To Shop"/>
                             <Next />
                         </div>
                     </div>

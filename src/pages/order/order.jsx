@@ -2,6 +2,7 @@ import style from './order.module.css';
 import Line from '/src/components/forMain/line/line.jsx'
 import Images from "../../components/forMain/line__images/images.jsx";
 import Button from '/src/components/ui/button/button.jsx'
+import Total from "../../components/ui/subtotal/total.jsx";
 
 function Order(){
     return (
@@ -50,26 +51,15 @@ function Order(){
                         <div className={style.rightTitle}>
                             <p className={style.title}>ORDER SUMMARY</p>
                         </div>
-                        <div className={style.orderPrice}>
-                            <div>
-                                <p>Subtotal</p>
-                                <p>$180</p>
-                            </div>
-                            <div>
-                                <p>Shipping</p>
-                                <p>$10</p>
-                            </div>
-                        </div>
-                        <Line/>
-                        <div className={style.orderTotal}>
-                            <p>TOTAL (Tax incl.)</p>
-                            <p>$190</p>
-                        </div>
+                        <Total/>
                         <div className={style.orderAgree}>
                             <input type="checkbox"/>
                             <p>I agree to the Terms and Conditions</p>
                         </div>
-                        <Button value="CONTINUE"/>
+                        <div className={style.orderButton}>
+                            <Button value="CONTINUE"/>
+                        </div>
+
                     </div>
                 </div>
             </div>

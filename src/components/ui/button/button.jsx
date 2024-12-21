@@ -1,9 +1,12 @@
 import style from './button.module.css'
-import button from "bootstrap/js/src/button.js";
+
 
 function Button(props) {
     return (
-        <button className={style.btn}>{props.value}</button>
+        <div>
+            <button className={style.add}>{props.value}</button>
+        </div>
+
     )
 }
 

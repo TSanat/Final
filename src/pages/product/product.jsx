@@ -1,5 +1,6 @@
 import './product.css';
 import Button from '/src/components/ui/button/button.jsx';
+
 function Product() {
     return (
         <div className="product">
@@ -41,7 +42,7 @@ function Product() {
 
                             </div>
                             <p className="text__add">FIND YOUR SIZE | MEASUREMENT GUIDE</p>
-                            <Button value = "ADD"/>
+                            <Button value="ADD"/>
                         </div>
                     </div>
                 </div>

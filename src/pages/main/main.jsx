@@ -4,6 +4,7 @@ import Collection from '/src/components/forMain/newCollection/collection.jsx';
 import Thisweek from '/src/components/forMain/thisWeek/thisweek.jsx';
 import Xiv from '/src/components/forMain/xiv/xiv.jsx';
 import Fashion from '/src/components/forMain/fashionDisign/fashionDesign.jsx';
+
 function Main(){
     return(
         <div className="mainPage">
